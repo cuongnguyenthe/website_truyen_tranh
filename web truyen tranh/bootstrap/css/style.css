@@ -1,0 +1,31 @@
+#navbarmenu{
+    color: #000000;
+}
+#menu{
+    background-color: darkorange;
+}
+#xemtruyen{
+    background-color: lightsalmon;
+    text-align: center;
+}
+#footer{
+    background-color: darkgray;
+}
+#anhtruyen{
+    float: left;
+}
+#thongtintruyen{
+    float: left;
+}
+#noidungchinh{
+    clear: both;
+}
+#chuong{
+    display: inline-block;
+}
+#doraemon{
+    margin-top: 20px;
+}
+.img-responsive{
+    margin: auto;
+}

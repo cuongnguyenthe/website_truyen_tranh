@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <title>Truyentranhhay.com</title>
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+
+</head>
+<body>
+<!--Phan the hien logo va tim kiem (open) -->
+<div id="banner">
+    <div id="logo"><img src="../image/hamtruyen512.png"></div>
+    <div id="search">
+        <div id="formsearch"><input type="text" id="text" placeholder="Nhập từ khóa tìm kiếm!!" style="width: 100%"></div>
+        <div id="timkiem"><input type="button" id="button" value="Tìm kiếm"></div>
+    </div>
+</div>
+<!--Phan the hien logo va tim kiem (close) -->
+<!--Phan hien thi menu ngang (open)-->
+<div id="header">
+    <div id="head" style="font-family: Tahoma">
+        <ul>
+            <li><a href="index.html">Trang chủ</a>
+            </li>
+            <li><a href="#">Thể Loại</a>
+                <ul>
+                    <li><a href="#">Truyện đang hot</a></li>
+                    <li><a href="#">Truyện mới cập nhật</a></li>
+                    <li><a href="theloai.html">Kinh điển</a></li>
+                    <li><a href="#">Ngôn tình-lãng mạn</a></li>
+                    <li><a href="#">Kinh dị</a></li>
+                    <li><a href="#">Phiêu lưu</a></li>
+                    <li><a href="#">Trinh thám</a></li>
+                    <li><a href="#">Khám phá</a></li>
+                    <li><a href="#">Học đường</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Tất cả</a></li>
+            <li><a href="#">Hướng dẫn</a></li>
+            <li><a href="#">Phản hồi</a></li>
+            <li><a href="#">Truyện audio</a></li>
+            <li><a href="#">Truyện đọc</a></li>
+        </ul>
+        <a href="#" id="pull">Menu</a>
+    </div>
+</div>
+<!--Phan hien thi menu ngang (close)-->
+<!--Phan hien thi noi dung (open)-->
+<div id="main">
+    <!--Phan hien thi noi dung ben trai (open)-->
+    <div id="left">
+        <div id="truyendangdoc">
+        <div id="title"><p>Truyện đang đọc</p></div>
+        <div id="countinue">
+            <img src="../image/truyenhot.jpg">
+        </div>
+            <div id="toptuan">
+                <div id="tieudetoptuan" align="center">Top 3 trong tuần</div>
+                <div id="danhsachtoptuan" align="center">
+                    <hr width="180px">
+                    <p>1 - One Piece</p><br>
+                    <p>2 - Doraemon</p><br>
+                    <p>3 - Áo giáp vàng</p><br>
+                </div>
+            </div>
+        </div>
+        <div id="ads">
+            <img src="../image/quangcao.jpg">
+        </div>
+    </div>
+    <!--Phan hien thi noi dung ben trai (close)-->
+    <!--Phan hien thi noi dung ben phai (open)-->
+    <div id="content" align="center">
+        <div id="th">
+            <div id="tieudehot"><p style="font-size: 20px"><a href="theloai.html"><b>Truyện đang hot</b></a></p><img src="../image/hot_icon.gif"
+                                                                                     style="height: 50px"></div>
+            <div class="b"><img src="../image/truyenhot.jpg"><br>
+                <p>One Piece</p>
+                <p>Số tập: Chưa dừng</p>
+            </div>
+            <div class="b"><img src="../image/truyen2.jpg"><br>
+                <p>Vương tử Takeru</p>
+                <p>Số tập: 24</p>
+            </div>
+            <div class="b"><img src="../image/truyenhot1.jpg"><br>
+                <p>Fairy Tall</p>
+                <p>Số tập: 105</p>
+            </div>
+            <div class="b"><img src="../image/truyen3.jpg"><br>
+                <p>Áo giáp vàng</p>
+                <p>Số tập: 48</p>
+            </div>
+        </div>
+        <div id="tm">
+            <div id="tieudemoi"><p style="font-size: 20px"><a href="theloai.html"><b>Truyện mới cập nhật</b></a></p><img src="../image/new_icon.gif"
+                                                                                     style="height: 50px"></div>
+            <div class="b"><img src="../image/truyen4.jpg"><br>
+                <p>Subasa</p>
+                <p>Số tập: Chưa dừng</p>
+            </div>
+            <div class="b"><img src="../image/truyen5.jpg"><br>
+                <p>Doraemon</p>
+                <p>Số tập: 45( Đã đủ )</p>
+            </div>
+            <div class="b"><img src="../image/truyenmoicapnhat2.jpg"><br>
+                <p>Bạn tôi là ma cà rồng</p>
+                <p>Số tập: 145( Đã đủ )</p>
+            </div>
+            <div class="b"><img src="../image/truyenmoicapnhat.jpg"><br>
+                <p>Thám tử lừng danh Conan</p>
+                <p>Số tập: Chưa dừng</p>
+            </div>
+        </div>
+    </div>
+    <!--Phan hien thi noi dung ben phai (close)-->
+</div>
+<!--Phan hien thi noi dung (close)-->
+<!--Phan hien thi thanh thong tin duoi cung (open)-->
+<div id="footer">
+    <div id="gioithieu" align="center">
+        <p>Copyright ©2014 ThichTruyenTranh.com. All Rights Reserved</p>
+        <p>Hãy liên hệ với chúng tôi</p>
+        <img src="../image/icontwitter.png">
+        <img src="../image/icongoogleplus.png">
+        <img src="../image/iconfacbook.png">
+    </div>
+</div>
+<!--Phan hien thi thanh thong tin duoi cung(close)-->
+<!--Ham goi su dung cho thanh menu khi chuyen sang man hinh khac-->
+<script src="../js/javascript.js"></script>
+<!--Ham goi su dung cho thanh menu khi chuyen sang man hinh khac-->
+</body>
+</html>

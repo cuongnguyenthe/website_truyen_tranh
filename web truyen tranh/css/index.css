@@ -1,0 +1,276 @@
+body{
+}
+/*dinh dang cho man hinh*/
+#banner{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+}
+#logo{
+    margin-left: 300px;
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+#search{
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+#formsearch{
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+    float: left;
+}
+#timkiem{
+    float: left;
+    margin-top: 40px;
+}
+#header{
+    width: 1200px;
+    height: 30px;
+    margin: auto;
+}
+#main{
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+}
+#left{
+    width: 200px;
+    height: 1040px;
+    float: left;
+}
+#truyendangdoc{
+    width: 200px;
+    height: 530px;
+    background-color: darkorange;
+    margin-bottom: 10px;
+}
+#ads{
+    width: 200px;
+    height: 460px;
+    background-color: antiquewhite;
+}
+#title p{
+    margin-left: 50px;
+}
+#countinue img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#toptuan{
+    margin-top: 30px;
+}
+#content{
+    width: 1000px;
+    height: 1040px;
+    float: left;
+}
+#th{
+    width: 1000px;
+    float: left;
+    /*border: 1px solid grey;*/
+    margin-bottom: 35px;
+    margin-top: 16px;
+    background-color: lightsalmon;
+}
+#tm{
+    width: 1000px;
+    float: left;
+    /*border: 1px solid grey;*/
+    background-color: lightsalmon;
+}
+#footer{
+    background-color: grey;
+    width: 1200px;
+    height: 150px;
+    clear: both;
+    margin: auto;
+}
+/*dinh dang cho man hinh*/
+/*menu ngang*/
+#head{
+    width: 60%;
+    margin: auto;
+}
+#head-link ul li{
+    display: inline;
+    margin: 5px;
+}
+#head ul, #head li{
+    padding:0;
+    margin:0;
+}
+#head li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+#head li a{
+    width:100px;
+    height: 30px;
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+#head ul ul li a{
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+#head li a:hover{
+    background-color: white;
+}
+#head ul ul{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    visibility: hidden;
+}
+#head ul li:hover ul{
+    visibility: visible;
+    background-color: darkorange;
+}
+#head a {
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+}
+#head li a {
+    border-right: 1px solid #576979;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+#head li:last-child a {
+    border-right: 0;
+}
+#head a:hover, head a:active {
+    background-color: #8c99a4;
+}
+#head a#pull {
+    display: none;
+}
+/*menu ngang*/
+.b{
+    overflow: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+#gioithieu{
+}
+/* Tất cả các màn hình có độ phân giải thấp nhất là 1001px */
+@media all and (min-width: 1001px){
+    #banner{
+        background-color: snow;
+    }
+    #header{
+        /*height: 100px;*/
+        width: 1200px;
+        margin: auto;
+        background-color: darkorange;
+    }
+}
+/* Màn hình có độ phân giải tối đa 1000px */
+@media screen and (max-width: 1000px) {
+    #banner{
+        width: 100%;
+        background-color: snow;
+    }
+    #logo{
+        margin-left: 1px;
+        float: left;
+    }
+    #header{
+        width: 100%;
+        height: auto;
+        background-color: darkorange;
+    }
+    #main{
+        float: none;
+        width: 100%;
+    }
+    #left{
+        display: none;
+    }
+    #content{
+        width: 100%;
+        height: 3200px;
+        margin: auto;
+    }
+    #footer{
+        width: 100%;
+        clear: both;
+        height: auto;
+    }
+    /*menu ngang*/
+    #head {
+        border-bottom: 0;
+    }
+    #head ul {
+        display: none;
+        height: auto;
+    }
+    #head ul ul{
+        z-index: 999;
+    }
+    #head a#pull {
+        display: block;
+        background-color: gray;
+        width: 100%;
+        /*position: relative;*/
+        clear: both;
+    }
+    #head a#pull:after {
+        content:"";
+        background: url("../image/menu1600.png") no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+    }
+    /*menu ngang*/
+    #th, #tm{
+        float: none;
+        width: 100%;
+    }
+    .b{
+        overflow: auto;
+        float: none;
+        margin-top: 20px;
+    }
+    #search{
+        width: 100%;
+        height: 30px;
+        top: 0px;
+        position: fixed;
+        /*display: none;*/
+    }
+    #formsearch{
+        margin-top: 0px;
+        width: 70%;
+        float: left;
+        margin-left: auto;
+    }
+    #timkiem{
+        margin-top: 0px;
+        width: 10%;
+        float: left;
+    }
+
+}
